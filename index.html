@@ -1,0 +1,296 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sally Smythe Resume</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400,500,700,900);
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+/* End clearfix */
+
+body {
+  font: 12 Arial, sans-serif;
+  font-weight: normal;
+  position: relative;
+  background: #efefef;
+  line-height: 20px;
+}
+
+#maincontent {
+  width: 80%;
+  z-index: 5;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-top: 130px;
+  color: #666666;
+  background: #fff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: #04c3a5;
+  display: block;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 124, 110, 0.45);
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  float: left;
+  padding-left: 55px;
+  line-height: 30px;
+  font-weight: 700; 
+  font-size: 22px;
+}
+
+.site-nav {
+  min-width: 320px;
+  letter-spacing: 1px;
+}
+
+.site-nav a:active {
+  border-bottom: 2px solid #fff;
+}
+
+.site-nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+.site-nav li {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 25px;
+  padding: 10px;
+}
+
+.site-nav a {
+  color: #444444;
+  font-weight: bold;
+  position: relative;
+}
+
+h1 {
+  font-family: "Playfair Display SC", serif;
+}
+
+p {
+  font-family: sans-serif; 
+}
+
+h5 {
+  font-family: "Roboto", sans-serif; 
+  font-weight: 700;
+  font-size: 14px;
+  color: #04c3a5;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+
+ul {
+  font-family: "Roboto", sans-serif; 
+}
+
+a, a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+section {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 50px;
+  margin-top: 30px;  
+  padding-bottom: 25px;
+}
+
+section:last-child {
+  border-bottom: none;
+  padding-bottom: 35px;
+  margin-bottom: 0px;
+}
+
+section:before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+}
+
+.heading h2{
+  text-transform: uppercase;
+  float: left;
+  width: 20%;
+}
+
+.content {
+  float: right;
+  width: 75%;
+}
+
+#experience h5{
+  color: #04c3a5;
+}
+
+#experience h6{
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#experience ul{
+  margin-bottom: 55px; /*add space between jobs*/
+}
+
+#experience ul:last-child{
+  padding-bottom: 35px;
+  margin-bottom: 0;
+}
+
+#education h6{
+  padding-bottom: 25px;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-top: 50px;
+  background: #666666;
+  height: 100px;
+}
+
+footer h5 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 13px;
+}
+
+footer a{
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+<body>
+  <article>
+        
+    <!-- Begin Header Navigation-->  
+    <header class="header">
+      <h1>Sally Smythe</h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#interests">Interests</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header Navigation-->  
+      
+    <!-- Begin Main Content-->
+    <div id="maincontent" class="clearfix">
+
+      <!-- Begin About Me Section -->
+      <section id="about" class="clearfix">
+        <h2 class="heading">About Me</h2>
+        <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </section>
+      <!-- End About Me Section -->
+
+      <!-- Begin Experience Section -->
+      <section id="experience" class="clearfix">
+        <h2 class="heading">Work Experience</h2>
+        <div class="content">
+        <h5>Project Manager at Company Name</h5>
+        <h6>June 2011 - Present</h6>
+        <ul class="generic-list">
+          <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, adipisci.</li>
+          <li class="item">Adipisci, natus, commodi non doloremque voluptates officia praesentium qui eveniet!</li>
+          <li class="item">Sunt, unde, sed illum dicta aperiam ex dolorum quis pariatur?</li>
+          <li class="item">Nobis, maiores porro distinctio sapiente minima autem placeat voluptas vero.</li>
+        </ul>
+        <h5>Front-end Developer at Company Name</h5>
+        <h6>Dec 2010 - May 2011</h6>
+        <ul class="generic-list">
+          <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, non.</li>
+          <li class="item">Inventore, iure, quisquam tempore harum alias culpa voluptates odio. Voluptates!</li>
+          <li class="item">Sint, officiis incidunt itaque cum ducimus corporis mollitia libero voluptas.</li>
+          <li class="item">Nobis, quidem tempora fugiat quibusdam officiis placeat nisi asperiores est.</li>
+        </ul>
+        <h5>Checkout Clerk at Company Name</h5>
+        <h6>Jan 2009 - July 2009</h6>
+        <ul class="generic-list">
+          <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, fugiat?</li>
+          <li class="item">Officia, illum, perspiciatis ullam cupiditate rerum laboriosam corporis nobis fugit.</li>
+          <li class="item">Libero, explicabo dignissimos sapiente officia voluptate iusto. Nemo, at ab.</li>
+          <li class="item">Fuga, laboriosam facilis sed excepturi rerum optio reiciendis provident iure!</li>
+        </ul>
+        </div>
+      </section>
+      <!-- End Experience Section -->
+      
+      <!-- Begin Education Section -->
+      <section id="education" class="clearfix">
+        <h2 class="heading">Education</h2>
+        <div class="content">
+          <h5>BSB, Technical Communication</h5>
+          <h6>The Ohio State University | 2002</h6>
+        </div>
+      </section>
+      <!--  End Education Section -->
+      
+      <!-- Begin Interests Section -->
+      <section id="interests" class="clearfix">
+        <h2 class="heading">Interests</h2>
+        <ul class="content">
+          <li>Board games</li>
+          <li>Hiking</li>
+          <li>Photography</li>
+        </ul>
+      </section>
+      <!-- End Interests Section -->
+
+    </div>
+  <!--End Main Content -->
+
+    <footer>
+
+     <!-- Begin Contact Section -->
+      <h5><a href="mailto:mymailzzz@gmail.com">Email</a> | <a href="www.linkedin.com">LinkedIn</a> | <a href="www.Twitter.com">Twitter</a>
+      </h5>
+      <!-- End Contact Section -->
+
+    </footer>    
+
+
+
+  </article>
+</body>
+</html>
